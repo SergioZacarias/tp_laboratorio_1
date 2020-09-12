@@ -4,9 +4,13 @@
  *  Created on: 10 sep. 2020
  *      Author: usuario
  */
-	int sumar (int numero1, int numero2)
+#include <stdio.h>
+#include <stdlib.h>
+#include "logicacalculadora.h"
+
+	float sumar (float numero1, float numero2)
 	{
-    	int resultado;
+    	float resultado;
 
 		resultado = numero1 + numero2;
 
@@ -14,9 +18,9 @@
 	}
 
 
-	int restar (int numero1, int numero2)
+	float restar (float numero1, float numero2)
 	{
-	int resultado;
+	float resultado;
 
 	resultado = numero1 - numero2;
 
@@ -24,9 +28,9 @@
 	}
 
 
-	int multiplicar (int numero1, int numero2)
+	float multiplicar (float numero1, float numero2)
 	{
-	int resultado;
+	float resultado;
 
 	resultado = numero1 * numero2;
 
@@ -34,7 +38,7 @@
 	}
 
 
-	float dividir (int numero1, int numero2)
+	float dividir (float numero1, float numero2)
 	{
 	float resultado;
 

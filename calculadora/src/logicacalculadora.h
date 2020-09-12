@@ -7,9 +7,6 @@
 
 #ifndef LOGICACALCULADORA_H_
 #define LOGICACALCULADORA_H_
-
-
-
 #endif /* LOGICACALCULADORA_H_ */
 
 /**
@@ -18,7 +15,7 @@
  * @param numero2  variable donde se va a guardar segundo numero ingresado.
  * @return resultado de la suma de los dos numeros.
  */
-int sumar (int numero1, int numero2);
+float sumar (float numero1, float numero2);
 
 /**
  * @brief Realiza la resta de dos numeros
@@ -26,7 +23,7 @@ int sumar (int numero1, int numero2);
  * @param numero2 variable donde se va a guardar segundo numero ingresado.
  * @return resultado de la resta de los dos numeros.
  */
-int restar (int numero1, int numero2);
+float restar (float numero1, float numero2);
 
 /**
  * @brief Realiza la multiplicacion de dos numeros
@@ -34,14 +31,14 @@ int restar (int numero1, int numero2);
  * @param numero2 variable donde se va a guardar segundo numero ingresado.
  * @return resultado de el producto de los dos numeros.
  */
-int multiplicar (int numero1, int numero2);
+float multiplicar (float numero1, float numero2);
 /**
  * @brief Realiza la division de dos numeros
  * @param numero1 variable donde se va a guardar primer numero ingresado.
  * @param numero2 variable donde se va a guardar segundo numero ingresado.
  * @return resultado de la division de los dos numeros.
  */
-float dividir (int numero1, int numero2);
+float dividir (float numero1, float numero2);
 
 /**
  * @brief Realiza el factorial de un numeros
